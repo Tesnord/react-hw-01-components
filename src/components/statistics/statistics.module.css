@@ -1,0 +1,54 @@
+.statistics {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #5A5A5C;
+  padding: 20px 0;
+}
+
+.stat-list {
+  display: flex;
+}
+
+.item {
+  height: 60px;
+  width: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  
+}
+
+.item:nth-child(odd) {
+  background: #4AC7F5;
+}
+
+.item:nth-child(even) {
+  background: #A43CF4;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 0.85;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-size: 18px;
+  line-height: 1.16;
+  color: #FFFFFF;
+}

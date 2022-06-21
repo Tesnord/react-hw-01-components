@@ -1,9 +1,16 @@
-import Profile from './components/Profile'
-import profile from './user.json'
+import Profile from './components/profile/Profile'
+import profile from './components/profile/user.json'
+import StatisticsList from './components/statistics/StatisticsList'
+import statistics from './components/statistics/data.json'
+import FriendList from './components/friends/FriendList'
+import friends from './components/friends/friends.json'
+import TransactionHistory from './components/transactions/TransactionHistory'
+import transactions from './components/transactions/transactions.json'
+
 
 export default function App() {
   return (
-    <div>
+    <div className='app'>
       <Profile
         username={profile.username}
         tag={profile.tag}
@@ -11,6 +18,10 @@ export default function App() {
         avatar={profile.avatar}
         stats={profile.stats}
       />
+      <StatisticsList items={statistics} />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions}/>
     </div>
+
   )
 }
