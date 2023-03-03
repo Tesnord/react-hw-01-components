@@ -30,3 +30,7 @@
 - [Задание 2 - Секция статистики](./assets/statistics/)
 - [Задание 3 - Список друзей](./assets/friend-list/)
 - [Задание 4 - История транзакций](./assets/transaction-history/)
+
+# React homework 04
+
+- Переписать задания на хуки в ветку `hooks`
