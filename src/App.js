@@ -10,9 +10,6 @@ import data from './components/Statistics/data.json';
 import friends from './components/FriendList/friends.json';
 import transactions from './components/TransactionHistory/transactions.json';
 
-// Style
-import './App.css';
-
 export default function App() {
   return (
     <div>
